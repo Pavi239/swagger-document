@@ -35,7 +35,7 @@
 					}
 				}
 			],
-			"_postman_id": "7bb98aa9-b29f-4e4b-be75-c34de36d8598",
+			"id": "7bb98aa9-b29f-4e4b-be75-c34de36d8598",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -87,13 +87,17 @@
 							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"pavi\");\r",
-							"});"
+							"});\r",
+							"\r",
+							"const email= pm.response.json().data.email;\r",
+							"pm.environment.set(\"email\",data.email);\r",
+							""
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"_postman_id": "d092931e-ecec-4bf9-ad67-810b4abd7c28",
+			"id": "d092931e-ecec-4bf9-ad67-810b4abd7c28",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -135,7 +139,7 @@
 					}
 				}
 			],
-			"_postman_id": "ad2c4301-8889-4935-b6d4-014937764889",
+			"id": "ad2c4301-8889-4935-b6d4-014937764889",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -173,7 +177,7 @@
 					}
 				}
 			],
-			"_postman_id": "c62bde27-7f69-46a6-bad7-404b4b035b44",
+			"id": "c62bde27-7f69-46a6-bad7-404b4b035b44",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -217,7 +221,7 @@
 					}
 				}
 			],
-			"_postman_id": "5e13644f-0d2c-4a33-852b-caf92bd86760",
+			"id": "5e13644f-0d2c-4a33-852b-caf92bd86760",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -264,7 +268,7 @@
 					}
 				}
 			],
-			"_postman_id": "3e81b3fa-63aa-49d7-b793-7b7501442081",
+			"id": "3e81b3fa-63aa-49d7-b793-7b7501442081",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -303,7 +307,7 @@
 					}
 				}
 			],
-			"_postman_id": "4587ec3c-ecda-4adb-8bf6-7144cdc29bd7",
+			"id": "4587ec3c-ecda-4adb-8bf6-7144cdc29bd7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -352,7 +356,7 @@
 					}
 				}
 			],
-			"_postman_id": "a8b29f62-1eef-42ca-8a02-f059135db8e9",
+			"id": "a8b29f62-1eef-42ca-8a02-f059135db8e9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -394,7 +398,7 @@
 					}
 				}
 			],
-			"_postman_id": "cec529c7-85fa-4429-ad19-cbe759c6a4cc",
+			"id": "cec529c7-85fa-4429-ad19-cbe759c6a4cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -409,10 +413,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {}
-					}
+					"raw": ""
 				},
 				"url": "{{Base URL}}/api/rest/logout"
 			},
@@ -434,7 +435,7 @@
 					}
 				}
 			],
-			"_postman_id": "3fee1ec5-23ab-4e7a-b143-ef4fbc40e015",
+			"id": "3fee1ec5-23ab-4e7a-b143-ef4fbc40e015",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
