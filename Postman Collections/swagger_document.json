@@ -89,8 +89,6 @@
 							"    pm.expect(pm.response.text()).to.include(\"pavi\");\r",
 							"});\r",
 							"\r",
-							"const email= pm.response.json().data.email;\r",
-							"pm.environment.set(\"email\",data.email);\r",
 							""
 						],
 						"type": "text/javascript"
