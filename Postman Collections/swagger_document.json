@@ -110,7 +110,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"firstname\": \"pavi\",\r\n  \"lastname\": \"sundhar\",\r\n  \"email\": \"{{email1}}\",\r\n  \"password\": \"{{password1}}\",\r\n  \"confirm\": \"{{password}}\",\r\n  \"telephone\": \"1-541-754-3010\",\r\n  \"customer_group_id\": \"1\",\r\n  \"agree\": \"1\",\r\n  \"custom_field\": {\r\n    \"account\": {\r\n      \"1\": \"+364545454\"\r\n    }\r\n  }\r\n}",
+					"raw": "{\r\n  \"firstname\": \"pavi\",\r\n  \"lastname\": \"sundhar\",\r\n  \"email\": \"{{email1}}\",\r\n  \"password\": \"{{password1}}\",\r\n  \"confirm\": \"{{password1}}\",\r\n  \"telephone\": \"1-541-754-3010\",\r\n  \"customer_group_id\": \"1\",\r\n  \"agree\": \"1\",\r\n  \"custom_field\": {\r\n    \"account\": {\r\n      \"1\": \"+364545454\"\r\n    }\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
