@@ -234,7 +234,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"email\": \"{{forgot password}}\",\r\n\"password\": \"{{password}}\"\r\n}",
+					"raw": "{\r\n\"email\": \"{{forgot password}}\",\r\n\"password\": \"{{password1}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
